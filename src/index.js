@@ -10,9 +10,9 @@ import Contact from "./components/contact.js";
 ReactDOM.render(
   <Router>
     <Routes>
-      <Route path="/" element={<App />}></Route>
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/portfolio" element={<App />}></Route>
+      <Route path="/portfolio/projects" element={<Projects />} />
+      <Route path="/portfolio/contact" element={<Contact />} />
     </Routes>
   </Router>,
   document.getElementById("root")

@@ -7,9 +7,9 @@ const Layout = ({ children }) => {
   const { pathname } = location;
 
   const links = [
-    { text: "HOME", id: "home", href: "/" },
-    { text: "PROJECTS", id: "projects", href: "/projects" },
-    { text: "CONTACT", id: "contact", href: "/contact" },
+    { text: "HOME", id: "home", href: "/portfolio" },
+    { text: "PROJECTS", id: "projects", href: "/portfolio/projects" },
+    { text: "CONTACT", id: "contact", href: "/portfolio/contact" },
   ];
 
   return (
